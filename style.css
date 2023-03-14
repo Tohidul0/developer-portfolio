@@ -1,5 +1,6 @@
 body{
     font-family: 'Poppins', sans-serif;
+    
 }
 h1{
     font-size: 50px;
@@ -7,7 +8,7 @@ h1{
 #cl{
     color:orange;
 }
-section{
+.first{
     display:flex;
     margin-left: 100px ;
 }
@@ -20,4 +21,13 @@ section{
    color:white;
    padding: 10px 30px;
    border-radius: 10px;
+}
+section{
+    margin-top: 100px;
+    display:flex;
+}
+#dash{
+  width 50%;
+  height: 60%;
+  margin-left: 90px;
 }
