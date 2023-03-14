@@ -5,7 +5,7 @@ body{
 h1{
     font-size: 50px;
 }
-#cl{
+.cl{
     color:orange;
 }
 .first{
@@ -22,12 +22,46 @@ h1{
    padding: 10px 30px;
    border-radius: 10px;
 }
+.dream{
+    display:flex;
+}
 section{
     margin-top: 100px;
-    display:flex;
+
 }
 #dash{
   width 50%;
   height: 60%;
   margin-left: 90px;
+}
+.last{
+    display:flex;
+
+}
+.shadow
+{
+  
+    box-shadow: 10px 10px 40px gray;
+    width: 40%;
+    margin-left: 6%;
+    margin-right: 3%;
+    padding-left: 20px;
+    padding-right: 20px;
+    border-radius: 20px;
+ }
+.experience{
+    margin-top: -250px;
+}
+#box{
+    border-left: 7px solid;
+    border-image:linear-gradient(blue,cyan);
+    border-image-slice: 1;
+}
+#box2{
+    border-left: 7px solid;
+    border-image:linear-gradient(rgb(126, 201, 7),rgb(9, 233, 203));
+    border-image-slice: 1;
+}
+#dane{
+    margin-left: 85px;
 }
