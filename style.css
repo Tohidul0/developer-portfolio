@@ -1,5 +1,7 @@
 body{
     font-family: 'Poppins', sans-serif;
+    background-color:black;
+    color: white;
     
 }
 h1{
@@ -65,3 +67,11 @@ section{
 #dane{
     margin-left: 85px;
 }
+
+
+.half:hover {
+    transform: scale(1.1);
+    transition: transform 0.3s ease;
+    filter: grayscale(0%);
+  }
+  
