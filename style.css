@@ -96,7 +96,7 @@ section{
 
 
   /* responsive start here for mobile or small devices---------------------------------*/
-  @media only screen and (max-width: 600px) {
+  @media only screen and (max-width: 740px) {
     .first{
         flex-direction: column;
         margin-left: 0;
@@ -112,6 +112,9 @@ section{
         flex-direction: column;
         margin-left: 0;
         
+    }
+    #dane{
+        margin-left: 20px;
     }
     
     .last{
