@@ -11,35 +11,50 @@ h1{
     color:orange;
 }
 .first{
+    margin: 80px;
     display:flex;
-    margin-left: 100px ;
+   
 }
 .half{
-    width:50%;
+    padding: 0px 20px;
 }
+
+#image2{
+    display: flex;
+    justify-content: left;
+    
+}
+
 .hireme{
    text-decoration: none;
    background-image:linear-gradient(orange,tomato);
    color:white;
    padding: 10px 30px;
    border-radius: 10px;
+   overflow: hidden;
 }
 .dream{
     display:flex;
+    justify-content: space-between;
+    margin :80px;
+    overflow: hidden;
 }
 section{
-    margin-top: 100px;
+    padding-bottom: 50px;
 
 }
+
 #dash{
-  width 50%;
-  height: 60%;
-  margin-left: 90px;
+    width: 500px;
+    height: 510px;
+  
 }
 .last{
     display:flex;
+    
 
 }
+
 .shadow
 {
   
@@ -51,27 +66,61 @@ section{
     padding-right: 20px;
     border-radius: 20px;
  }
-.experience{
-    margin-top: -250px;
-}
+
 #box{
     border-left: 7px solid;
     border-image:linear-gradient(blue,cyan);
     border-image-slice: 1;
+    overflow: hidden;
 }
 #box2{
     border-left: 7px solid;
     border-image:linear-gradient(rgb(126, 201, 7),rgb(9, 233, 203));
     border-image-slice: 1;
+    overflow: hidden;
 }
 #dane{
-    margin-left: 85px;
+   margin-left: 100px;
+   margin-top: -80px;
 }
 
-
+/*
 .half:hover {
     transform: scale(1.1);
     transition: transform 0.3s ease;
     filter: grayscale(0%);
   }
+  */
   
+
+
+
+  /* responsive start here for mobile or small devices---------------------------------*/
+  @media only screen and (max-width: 600px) {
+    .first{
+        flex-direction: column;
+        margin-left: 0;
+    }
+    .half{
+        
+        margin-bottom: 20px px;
+    }
+    #image{
+        padding-top: 40px;
+    }
+    .dream{
+        flex-direction: column;
+        margin-left: 0;
+        
+    }
+    
+    .last{
+        display:block;
+    }
+    .experience{
+        margin-top: -100px;
+    }
+    #box{
+        margin-bottom: 40px;
+    }
+  }
